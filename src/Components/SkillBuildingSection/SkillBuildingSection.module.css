@@ -1,0 +1,118 @@
+
+.skillBuildingContainer {
+    padding: 20px;
+    text-align: center;
+    margin-top: 560px;
+  }
+  
+  .skillBuildingHeaderContainer {
+    margin-bottom: 20px;
+  }
+  
+  .skillBuildingHeaderContainer h1 {
+    font-size: 2.5rem;
+    color: #302f2f;
+    font-weight: bold;
+  }
+  
+  .skillBuildingHeaderContainer p {
+    font-size: 1rem;
+    color: #282626;
+    font-weight: 200;
+  
+  }
+  
+  .skillBuildingCardContainer {
+    display: flex;
+    gap: 18px;
+    justify-content: center;
+  }
+  .skillCardText1{
+    font-size: 15px;
+    position: relative;
+    bottom: 10px;
+    right: 15px;
+    margin-top: 7px;;
+    
+    
+  }
+  .skillCard {
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+    border-radius: 20px !important;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+    border: none !important;
+  }
+  
+  .skillCard:hover {
+    transform: scale(1.05);
+  }
+  
+  .cardContent {
+    display: flex;
+    /* align-items: center; */
+  }
+
+  .skillBuildingDetails {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+  }
+  
+  /* .cardLeft {
+    flex: 1;
+  } */
+  
+  .skillCardIcon {
+    padding: 20px;
+    border-radius: 50%;
+    width: 110px !important;
+  }
+  
+  .skillCardHeader{
+    display: flex;
+    align-items: center;
+  }
+
+  .skillCardTitle {
+    font-size: 1.5rem !important;
+    position: relative;
+    display: inline;
+    margin-bottom: 5px !important;
+    /* right: 900px !important; */
+    /* margin-bottom: 100px; */
+  }
+  
+  .starIcon {
+    color: #ffc107;
+    margin-right: 2px;
+  }
+  
+  .skillName {
+    /* font-size: 14px; */
+    color: #131313;
+    margin: 13px 0;
+    font-size: 1rem;
+    font-weight: bold;
+  }
+  
+  .skillCardBtn {
+    background: #a3a3f5;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 9px;
+    padding: 8px 14px;
+    font-size: 15px;
+    font-weight: 400;
+    transition: background 0.3s ease-in-out;
+  }
+  
+  .skillCardBtn:hover {
+    background: #7e7ef6;
+  }
+  
